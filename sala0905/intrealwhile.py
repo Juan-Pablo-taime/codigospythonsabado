@@ -1,0 +1,11 @@
+while True:
+    numint1 = int(input("insira numero inteiro "))
+    numint2 = int(input("insira outro numero inteiro "))
+    numreal = float(input("insira numero real "))
+    resp1 = (numint1*2)*(numint2/2)
+    resp2 = (numint1*3) + (numreal)
+    resp3 = (numreal**3)
+    print (f"{resp1},{resp2} e {resp3}")
+    continuar = str(input("vc quer continuar?"))
+    if continuar == "nao":
+        break
